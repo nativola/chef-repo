@@ -1,0 +1,10 @@
+{
+    "name": "vagrant",
+    "description": "Setup vagrant environment",
+    "json_class": "Chef::Role",
+    "default_attributes": {},
+    "override_attributes": {},
+    "chef_type": "role",
+    "run_list": ["recipe[mongodb]", "recipe[rvm::vagrant]", "recipe[rvm::user]"],
+    "env_run_lists": {}
+}

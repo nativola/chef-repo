@@ -1,0 +1,5 @@
+.rake_test_cache
+.vagrant*
+.DS_Store
+*.swp
+*.box
